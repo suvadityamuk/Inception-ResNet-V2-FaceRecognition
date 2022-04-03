@@ -34,6 +34,18 @@ the Impact of Residual Connections on Learning](https://arxiv.org/pdf/1602.07261
   - We perform some simple preprocessing using `torchvision.transforms.Resize()`, `torchvision.transforms.ToTensor()` and `torchvision.transforms.Normalize()` to get a good representation for the images in tensor format.
   - We make use of `torch.utils.data.DataLoader()` to improve load times and process images in random mini-batches in an efficient and optimized manner
 
+### Set-up
+You can choose to run either the Jupyter notebook, or the scripts present within the `script` folder of the repository
+#### Jupyter Notebook
+1. Run the cells in order. Adjust parameters as you may see fit. Preferable number of `epochs` could be easily increased with availability of hardware
+2. There are helper functions present within the cells that you can use to generate predictions for images using the models. Feel free to use them
+
+#### Scripts
+1. Make sure you have the dependencies set up. For posterity, you can run `pip install -r requirements.txt --no-index`
+2. Make changes as needed to the parameters in `train.py` as it contains the required code for training the model present in `resnet_model.py`.
+3. If using VS Code, you can deploy a Tensorboard session directly by clicking on `Launch TensorBoard session` above the `Tensorboard` import present in the file.
+4. Else, you can deploy by following the steps here. [Using TensorBoard with PyTorch](https://pytorch.org/tutorials/recipes/recipes/tensorboard_with_pytorch.html)
+
 ## Credits
 - **Paper**: *Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning*
 - **Authors**: *Christian Szegedy, Sergey Ioffe and Vincent Vanhoucke*
