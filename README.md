@@ -35,7 +35,7 @@ the Impact of Residual Connections on Learning](https://arxiv.org/pdf/1602.07261
   - We make use of `torch.utils.data.DataLoader()` to improve load times and process images in random mini-batches in an efficient and optimized manner
 
 ### Set-up
-You can choose to run either the Jupyter notebook, or the scripts present within the `script` folder of the repository
+You can choose to run either the Jupyter notebook, or the scripts present within the `Scripts` folder of the repository
 #### Jupyter Notebook
 1. Run the cells in order. Adjust parameters as you may see fit. Preferable number of `epochs` could be easily increased with availability of hardware
 2. There are helper functions present within the cells that you can use to generate predictions for images using the models. Feel free to use them
