@@ -27,7 +27,7 @@ the Impact of Residual Connections on Learning](https://arxiv.org/pdf/1602.07261
   - By default, it will try to **run training using a CUDA GPU**, but it will back up to a CPU on not being able to detect the presence of one
   - Parallelization has not been implemented as a design choice in order to keep the training function readable and easy to implement
   - The results of the training session can be **viewed interactively** using `TensorBoard` with logs being stored in `/runs` directory
-  - A benchmark of 00:30:03 minutes was seen on a NVIDIA GTX 1650Ti 4GB, Intel i7-10750H, 16GB RAM, SSD-enabled computer to train 1 epoch
+  - A benchmark of 00:30:03 hours was seen on a NVIDIA GTX 1650Ti 4GB, Intel i7-10750H, 16GB RAM, SSD-enabled computer to train 1 epoch
 
 ### Dataset and Pre-processing details
   - Using the Face-Expression-Recognition-Dataset from `jonathanoheix` on Kaggle, we train on a total of 28,821 images of 7 different classes including 'Anger', 'Disgust', 'Fear', 'Happy', 'Neutral', 'Sad' and 'Surprise'
