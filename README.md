@@ -41,7 +41,7 @@ You can choose to run either the Jupyter notebook, or the scripts present within
 2. There are helper functions present within the cells that you can use to generate predictions for images using the models. Feel free to use them
 
 #### Scripts
-1. Make sure you have the dependencies set up. For posterity, you can run `pip install -r requirements.txt --no-index`
+1. Make sure you have the dependencies set up. For being on the safe side, you can run `pip install -r requirements.txt --no-index`
 2. Make changes as needed to the parameters in `train.py` as it contains the required code for training the model present in `resnet_model.py`.
 3. If using VS Code, you can deploy a Tensorboard session directly by clicking on `Launch TensorBoard session` above the `Tensorboard` import present in the file.
 4. Else, you can deploy by following the steps here. [Using TensorBoard with PyTorch](https://pytorch.org/tutorials/recipes/recipes/tensorboard_with_pytorch.html)
